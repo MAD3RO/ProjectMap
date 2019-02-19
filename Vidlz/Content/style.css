@@ -17,15 +17,15 @@ body {
 
 #clearAll {
     position: absolute;
-    right: 30px;
-    top: 900px;
+    right: 1.5%;
+    bottom: 50px;
     z-Index: 999;
 }
 
 #random {
     position: absolute;
-    right: 30px;
-    top: 855px;
+    right: 1.5%;
+    bottom: 92px;
     z-Index: 999;
 }
 
@@ -35,8 +35,8 @@ body {
 
 #galleryDiv {
     position: absolute;
-    right: 30px;
-    top: 20px;
+    right: 1.5%;
+    top: 1.5%;
     z-Index: 999;
 }
 
