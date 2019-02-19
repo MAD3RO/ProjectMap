@@ -1,0 +1,50 @@
+﻿html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+ }
+
+body {
+    background-color: seagreen;
+    overflow: hidden;
+    font-family: "Trebuchet MS";
+}
+
+#mapDiv {
+    height: 100%;
+    width: 100%;
+}
+
+#clearAll {
+    position: absolute;
+    right: 30px;
+    top: 900px;
+    z-Index: 999;
+}
+
+#random {
+    position: absolute;
+    right: 30px;
+    top: 855px;
+    z-Index: 999;
+}
+
+#contentPane {
+    width: 100px;
+}
+
+#galleryDiv {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-Index: 999;
+}
+
+#gallery {
+    background-color: wheat;
+    width: 380px;
+    height: 280px;
+    overflow: auto;
+    margin-top: 10px;
+    color: gray;
+}

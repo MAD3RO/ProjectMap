@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.27/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.27/esri/css/esri.css">
+    <script src="https://js.arcgis.com/3.27/"></script>
+    @*<script src="~/Scripts/jquery-3.3.1.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>*@
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/style.css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body id="mainWindow" style="margin: 0; padding: 0;">
+
+    @RenderBody()
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    
+    @RenderSection("scripts", required: false)
+</body>
+</html>
